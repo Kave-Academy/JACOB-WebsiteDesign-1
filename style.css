@@ -1,0 +1,217 @@
+body {
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  width: 85%;
+  height: 10rem;
+  padding: 35px 0;
+  justify-content: space-between;
+  position: relative;
+  left: 20rem;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 600;
+}
+.menu-btn {
+  cursor: pointer;
+}
+.menu-btn_burger {
+  width: 40px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  position: relative;
+  top: -0.5rem;
+}
+.home {
+  position: relative;
+  right: 6rem;
+}
+.welcome {
+  font-size: 60px;
+  color: #ff695c;
+  font-weight: bold;
+  font-family: "Courgette", cursive;
+}
+.move {
+  position: relative;
+  top: 5rem;
+}
+.button1 {
+  width: 100%;
+  border-radius: 30px;
+  color: #ff695c;
+  font-weight: 1000;
+  font-size: 20px;
+}
+p {
+  color: #f7938b;
+  font-size: 20px;
+}
+
+h1 {
+  color: #ff695c;
+  font-size: 50px;
+  font-family: "Contrail One", cursive;
+}
+
+header {
+  width: auto;
+  height: 135vh;
+  background-image: url(photo/img.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.section1 {
+  position: relative;
+  top: 7rem;
+}
+.button2 {
+  width: 17%;
+  height: 3.4rem;
+  border-radius: 30px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #ff695c;
+}
+#F-style {
+  position: relative;
+  top: -28rem;
+}
+.f-style1 {
+  position: absolute;
+  right: 75rem;
+}
+.f-style2 {
+  position: absolute;
+  right: 74rem;
+  top: 10rem;
+}
+.f-style3 {
+  position: absolute;
+  left: 75rem;
+  top: 7rem;
+  overflow: hidden;
+  z-index: -1;
+
+  width: 205px;
+  height: 200px;
+  object-fit: cover;
+  object-position: -40% 10%;
+}
+.f-style4 {
+  position: absolute;
+  left: 71rem;
+  top: 19rem;
+}
+.f-style5 {
+  position: absolute;
+  left: 73rem;
+  top: 14rem;
+  z-index: -1000;
+}
+.img-fluid {
+  position: absolute;
+  top: 105rem;
+  background-image: url("photo/img9.png");
+  width: 100%;
+  height: 210%;
+}
+
+.S-style-L {
+  position: relative;
+  top: 15rem;
+}
+.S-style1 {
+  position: absolute;
+  top: -15rem;
+}
+
+.S-style2 {
+  position: absolute;
+  left: 26.5rem;
+  top: 1.9rem;
+}
+.S-style3 {
+  position: absolute;
+  left: 20.5rem;
+  bottom: -3.4rem;
+}
+.S-style-R {
+  position: relative;
+  height: auto;
+}
+.S-style-R-1 {
+  position: absolute;
+  right: -22rem;
+  top: 3rem;
+  z-index: -1;
+}
+.S-style-R-2 {
+  position: absolute;
+  right: 14rem;
+  top: 21.1rem;
+  z-index: -1;
+}
+.S-style-R-3 {
+  position: absolute;
+  right: -25rem;
+  z-index: -1;
+  top: 12rem;
+}
+.S-style-R-4 {
+  position: absolute;
+  right: -25.6rem;
+  z-index: -1;
+  top: 12.4rem;
+}
+
+.T-style {
+  position: relative;
+  top: 38.5rem;
+  left: 5rem;
+}
+.T-style1 {
+  position: relative;
+  right: 5rem;
+}
+.T-style2 {
+  position: relative;
+  right: 10rem;
+}
+.theme1 {
+  font-size: 30px;
+}
+.button4 {
+  width: 40%;
+  height: 2.5rem;
+  border-radius: 30px;
+  color: #ff695c;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: white;
+}
+.T-style3 {
+  position: relative;
+  left: 75rem;
+  top: 24rem;
+  overflow: hidden;
+  z-index: -1;
+}
