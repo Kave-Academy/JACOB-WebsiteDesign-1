@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
 }
+/* Header  */
 header{
   background-image: url("photo/img.png");
   background-size: contain;
@@ -13,10 +14,12 @@ header{
   position: relative;
   min-height: 130vh;
 }
+/* nav link color and font-size  */
 .nav-link{
   color: white;
   font-size: 30px;
 }
+/* hover  */
 .nav-link:hover{
   color: brown;
 }
@@ -25,7 +28,13 @@ header{
   background-color: #f05151;
   color: white;
 }
+.button2{
+  border-radius: 20px;
+  background-color: #f05151;
+  color: white;
+}
 p{
+  font-size: 23px;
   color: #ff7575;
 }
 h1{
@@ -33,6 +42,15 @@ h1{
 }
 h2{
   color: #ff7575;
+}
+
+/* align the text  */
+.First-para{
+  position: relative;
+  top: 10rem;
+}
+.fw-bold {
+  font-size: 50px;
 }
 /* style in the leftside */
 #F-style {
@@ -211,7 +229,7 @@ footer{
   left: 30rem;
   font-size: 40px;
 }
-  
+
 /* medium devices (tablets,768px and up) */
 @media (max-width: 768px) {
   header {
@@ -223,25 +241,64 @@ footer{
     right: 33rem;
   }
 }
-@media (max-width: 575.98px) { 
+
+/* Small devices (landscape phones, 576px and up) */
+
+/* Header */
+@media (max-width: 576px) { 
   header {
     min-height: 90vh;
     background-size: contain;
   }
-  .display-3{
-    font-size: 10px;
+  .f-para{
+  text-align: center;
+}
+.button1{
+  font-size: 9px;
+}
+  .First-para{
     position: relative;
+    top: -4rem;
     text-align: center;
   }
-  .text-end{
-    font-size: 10px;
-  } 
-  h1 {
-    position: relative;
-    align-items: center;
+  .fw-bold {
     font-size: 20px;
+    text-align: center;
   }
   .f-style1 {
     right: 33rem;
+  }
+  .nav-link{
+    position: relative;
+    font-size: 15px;
+    bottom: 2rem;
+  }
+  .home{
+    position: relative;
+    right: 2rem;
+  }
+
+  /* second section  */
+  .paragraph{
+    position: relative;
+    top: -11rem;
+  }
+  .s-section{
+    position: relative;
+    top: -2rem;
+    text-align: center;
+  }
+  .second-section{
+    position: relative;
+    top: 45rem;
+  }
+  /* All images  */
+  .responsive{
+    max-width: 100%;
+    height: auto;
+  }
+  /* Second section/background image  */
+  .background{
+    width: 300%;
   }
 }
