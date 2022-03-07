@@ -233,12 +233,41 @@ footer{
 /* medium devices (tablets,768px and up) */
 @media (max-width: 768px) {
   header {
-    min-height: 30vh;
-    min-width: 20vw;
-    background-size: contain;
+    min-height: 57vh;
+    background-size: cover;
 }
   .f-style1 {
-    right: 33rem;
+    top: 2rem;
+    right: 42rem;
+  }
+  .f-para{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+  }
+  .button1{
+    font-size: 12px;
+    position: absolute;
+    justify-items: center;
+  }
+  .First-para{
+    position: relative;
+    top: -4rem;
+    left: 10rem;
+  }
+  .fw-bold {
+    font-size: 29px;
+    text-align: center;
+  }
+  .nav-link{
+    position: relative;
+    font-size: 21px;
+    right: 1rem;
+    bottom: 2rem;
+  }
+  .responsive{
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -282,11 +311,15 @@ footer{
   .paragraph{
     position: relative;
     top: -11rem;
+    font-size: 5px;
   }
   .s-section{
     position: relative;
     top: -2rem;
     text-align: center;
+  }
+  .par{
+    font-size: 14px;
   }
   .second-section{
     position: relative;
