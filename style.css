@@ -234,7 +234,8 @@ footer{
 @media (max-width: 768px) {
   header {
     min-height: 57vh;
-    background-size: cover;
+    background-size: contain;
+    min-width: auto;
 }
   .f-style1 {
     top: 2rem;
@@ -275,12 +276,18 @@ footer{
   /* first paragraph with image  */
   .f-para-WI{
     font-size: 15px;
+    position: absolute;
+    text-align: center;
   }
   .button4{
     font-size: 10px;
   }
   .theme1{
     font-size: 25px;
+  }
+  .T-style1{
+    position: relative;
+    left: 20rem;
   }
 }
 
@@ -290,6 +297,7 @@ footer{
 @media (max-width: 576px) { 
   header {
     min-height: 90vh;
+    min-width: auto;
     background-size: contain;
   }
   .f-para{
@@ -321,7 +329,7 @@ footer{
   }
   .home{
     position: relative;
-    right: 2rem;
+    right: 3rem;
   }
   span {
     display: block;
